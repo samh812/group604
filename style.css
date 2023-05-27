@@ -1,0 +1,169 @@
+html{
+    background-color:cadetblue;
+} 
+body {
+    font-family: Helvetica, Arial, sans-serif;
+
+    box-sizing: border-box;
+
+}
+
+.content {
+    padding: 5%;
+    padding-left: 10%!important;
+    padding-right: 10%!important;
+}
+
+
+
+h1 {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+h1, h2 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 23px;
+    text-decoration: none;
+}
+
+
+#navbar {
+
+    /* background-color: rgb(238, 125, 33); */
+    height:120px;
+    position: fixed;
+  top: 0;
+  width:100%;
+  padding:0%!important;
+
+  }
+
+#logo {
+    background-image: url("../images/logo.jpeg");
+    z-index: 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:200px;
+    float: right;
+    height:80px;
+
+      
+}
+
+#navbar .navlinks a {
+    float: left;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 17px 30px;
+    color: #000;
+    font-size: 19px;
+    transition: 0.2s;
+    font-weight: 700;
+
+}
+
+#navbar .pnavlinks a {
+    float: left;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 17px 20px;
+    color: #000;
+    font-size: 19px;
+    transition: 0.2s;
+    font-weight: 700;
+
+}
+#navbar .navlinks a:hover {
+    background-color: #000;
+    color:cadetblue;
+}
+
+#navbar .pnavlinks a:hover {
+    background-color: #000;
+    color:cadetblue;
+}
+#navbar { 
+    transform: translateY(-60%); 
+    transition: 0.5s;
+}
+
+#navbar:hover .burger{
+    opacity: 0%;
+    transition: 0.3s;
+}
+#navbar:hover{
+    transform: translateY(0); 
+
+}
+
+.burger{
+    padding-left: 45px;
+    padding-top: 20px;
+    width: 40px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+
+
+}
+
+th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  font-size: 16px;
+  padding: 12px;   
+}
+td {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 12px;
+}
+
+tr:nth-child(even) {
+  background-color: #ffefd5;
+}
+
+.process-grid-1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+
+}
+
+.process-grid-2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+}
+
+.grid-item{
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.grid-item a{
+    text-decoration: none;
+    color: #000;
+}
+
+.home-grid-1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+
+}
+
+.home-grid-2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+}
